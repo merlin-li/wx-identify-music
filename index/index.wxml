@@ -1,0 +1,28 @@
+<view class="page-body">
+  <view class="page-section tc">
+    <view class="btn-area">
+      <view class="music-area">
+        <view class="music">
+          <view class="item one"></view>
+          <view class="item two"></view>
+          <view class="item three"></view>
+          <view class="item four"></view>
+          <view class="item five"></view>
+          <view class="item six"></view>
+          <view class="item seven"></view>
+        </view>
+
+        <view>{{title}}</view>
+
+        <view>{{musicName}} --- {{musicSubTitle}}</view>
+      </view>
+
+      <button bindtap="bindStart" class="page-body-button" type="primary">{{btnText}}</button>
+
+      <view class="footer">
+        <button bindtap="bindStop">停止识别</button>
+        <button bindtap="play">播放录音</button>
+      </view>
+    </view>
+  </view>
+</view>
